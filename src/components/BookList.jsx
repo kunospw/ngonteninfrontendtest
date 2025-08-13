@@ -112,33 +112,35 @@ const BookList = ({ books, error }) => {
           📚 Book Lists
         </motion.h2>
         <div className="flex items-center justify-center h-64">
-          <div className="text-center">
-            <motion.div 
-              className="text-6xl mb-4"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: "spring", stiffness: 200, delay: 0.1 }}
-            >
-              ❌
-            </motion.div>
-            <motion.p 
-              className="text-lg font-medium" 
-              style={{ color: 'white' }}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              {error}
-            </motion.p>
-            <motion.p 
-              className="text-sm mt-2" 
-              style={{ color: 'white', opacity: 0.8 }}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
-            >
-              Try using the refresh button above
-            </motion.p>
+          <div className="flex items-center justify-center h-64 w-full rounded-lg" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+            <div className="text-center">
+              <motion.div 
+                className="text-6xl mb-4"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", stiffness: 200, delay: 0.1 }}
+              >
+                ❌
+              </motion.div>
+              <motion.p 
+                className="text-lg font-medium" 
+                style={{ color: 'white' }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2 }}
+              >
+                {error}
+              </motion.p>
+              <motion.p 
+                className="text-sm mt-2" 
+                style={{ color: 'white', opacity: 0.8 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.3 }}
+              >
+                Try using the refresh button above
+              </motion.p>
+            </div>
           </div>
         </div>
       </motion.div>

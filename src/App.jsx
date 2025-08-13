@@ -48,8 +48,8 @@ const App = () => {
         if (!cancelled) {
           console.error('Failed to load initial data:', error);
           // Set error states for both sections
-          setBooksError('Failed to load initial books');
-          setDogError('Failed to load initial dog image');
+          setBooksError('Failed to catch the books:(');
+          setDogError('Failed to catch the dog:(');
         }
       }
     };
@@ -71,7 +71,7 @@ const App = () => {
         setDogImage(newDogImage);
       } catch (error) {
         console.error('Failed to refresh dog image:', error);
-        setDogError('Failed to load dog image. Please try again.');
+        setDogError('Failed to catch the dog:(');
       }
     });
   };
@@ -84,7 +84,7 @@ const App = () => {
         setBooks(newBooks);
       } catch (error) {
         console.error('Failed to refresh books:', error);
-        setBooksError('Failed to load books. Please try again.');
+        setBooksError('Failed to catch the books:(');
       }
     });
   };
@@ -99,8 +99,8 @@ const App = () => {
         setDogImage(newDogImage);
       } catch (error) {
         console.error('Failed to refresh both:', error);
-        setBooksError('Failed to load books. Please try again.');
-        setDogError('Failed to load dog image. Please try again.');
+        setBooksError('Failed to catch the books:(');
+        setDogError('Failed to catch the dog:(');
       }
     });
   };
