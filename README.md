@@ -213,18 +213,6 @@ const [isRefreshing, setIsRefreshing] = useState(false);
 2. **Rapid Clicking**: Spam click buttons → only one API call made
 3. **Image Load Failure**: Invalid image URL → fallback state shown
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Vercel auto-detects Vite configuration
-3. Deploy automatically on push to main branch
-
-### Netlify
-1. Build: `npm run build`
-2. Publish directory: `dist`
-3. Deploy the built files
-
 ## 📈 Performance Optimizations
 
 - **Simple debounced actions** prevent unnecessary API requests without complex hooks
@@ -235,17 +223,10 @@ const [isRefreshing, setIsRefreshing] = useState(false);
 
 ## 🔮 Future Enhancements
 
-- [ ] Add loading skeletons with fade animations
-- [ ] Implement offline support with animated state transitions
-- [ ] Add unit tests for animation logic
-- [ ] Include accessibility improvements with reduced motion preferences
-- [ ] Add dark mode toggle with smooth theme transitions
-- [ ] Implement virtual scrolling with animation optimization
-- [ ] Add gesture support for mobile interactions
-
-## 📄 License
-
-MIT License - feel free to use this project for learning and development.
+- [ ] Add search or filter for books (by title, author, genre)
+- [ ] Implement pagination if there are more than 4 books per request
+- [ ] Randomized empty-state messages (different joke each time)
+- [ ] “Share this dog/book” button with a copy-to-clipboard link
 
 ## 👨‍💻 Developer
 
