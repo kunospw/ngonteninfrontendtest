@@ -44,8 +44,8 @@ A responsive React application that displays books and dog images with smooth an
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/react-frontend-test.git
-cd react-frontend-test
+git clone https://github.com/kunospw/ngonteninfrontendtest.git
+cd ngonteninfrontendtest
 
 # Install dependencies
 npm install
@@ -98,7 +98,7 @@ src/
 
 ### 1. Beginner-Friendly Debouncing
 ```javascript
-// Simple debounce function - easy to understand!
+// Simple debounce function
 const debounce = (key, func, delay = 300) => {
   // Clear previous timer if exists
   if (debounceTimers.current[key]) {
