@@ -6,8 +6,6 @@ A responsive React application that displays books and dog images with smooth an
 
 **[View Live Application →](https://ngonteninfrontendtest.vercel.app/)**
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/react-frontend-test)React Frontend Test: Books & Dog Viewer
-
 ## ✨ Features
 
 ### Core Functionality
